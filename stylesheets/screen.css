@@ -16,4 +16,22 @@ p {
 #one {
   background-color: #e0c9a2;
   height: 400px;
+  overflow: hidden;
+}
+/* line 17, ../sass/screen.sass */
+#one p {
+  position: absolute;
+}
+/* line 20, ../sass/screen.sass */
+#one svg {
+  position: absolute;
+  height: 400px;
+}
+/* line 24, ../sass/screen.sass */
+#one .surf-1 {
+  opacity: 0.2;
+}
+/* line 27, ../sass/screen.sass */
+#one .surf-2 {
+  opacity: 0.6;
 }
