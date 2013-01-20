@@ -1,26 +1,19 @@
-/* line 1, ../sass/screen.sass */
+/* line 3, ../sass/screen.sass */
 body {
   font-family: "Arial", sans;
   margin: 0px;
   overflow-x: hidden;
   position: relative;
+  background-color: #666666;
 }
 
-/* line 6, ../sass/screen.sass */
+/* line 9, ../sass/screen.sass */
 p {
   margin: 0px;
 }
 
-/* line 9, ../sass/screen.sass */
+/* line 12, ../sass/screen.sass */
 #one {
   background-color: #e0c9a2;
   height: 400px;
-}
-
-/* line 13, ../sass/screen.sass */
-.surf-1 {
-  opacity: 0.6;
-  position: absolute;
-  right: 0px;
-  top: 0px;
 }
