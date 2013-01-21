@@ -16,22 +16,136 @@ p {
 #one {
   background-color: #e0c9a2;
   height: 400px;
-  overflow: hidden;
 }
-/* line 17, ../sass/screen.sass */
+/* line 16, ../sass/screen.sass */
 #one p {
   position: absolute;
 }
-/* line 20, ../sass/screen.sass */
+/* line 19, ../sass/screen.sass */
 #one svg {
   position: absolute;
   height: 400px;
 }
-/* line 24, ../sass/screen.sass */
+/* line 23, ../sass/screen.sass */
+#one .surf-3 {
+  height: 500px;
+  left: -100px;
+}
+/* line 26, ../sass/screen.sass */
+#one .surf-4 {
+  height: 600px;
+  left: -40%;
+  width: 150%;
+}
+/* line 30, ../sass/screen.sass */
+#one .surf-5 {
+  height: 600px;
+  width: 180%;
+  left: -60%;
+}
+/* line 35, ../sass/screen.sass */
+#one .part-one {
+  color: #333333;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+}
+/* line 41, ../sass/screen.sass */
+#one .part-two {
+  color: #cccccc;
+  right: 20px;
+  top: 5em;
+}
+/* line 46, ../sass/screen.sass */
 #one .surf-1 {
   opacity: 0.2;
 }
-/* line 27, ../sass/screen.sass */
+/* line 49, ../sass/screen.sass */
 #one .surf-2 {
   opacity: 0.6;
+}
+
+/* line 52, ../sass/screen.sass */
+#two {
+  background-color: #0b2751;
+  height: 800px;
+}
+/* line 56, ../sass/screen.sass */
+#two .content {
+  position: relative;
+}
+/* line 59, ../sass/screen.sass */
+#two .part-one {
+  position: absolute;
+  top: 260px;
+  left: 1em;
+  color: #eeeeee;
+  font-size: 30px;
+}
+/* line 66, ../sass/screen.sass */
+#two .part-two {
+  position: absolute;
+  top: 260px;
+  right: 1em;
+  color: #cccccc;
+}
+/* line 72, ../sass/screen.sass */
+#two .part-three {
+  position: absolute;
+  top: 300px;
+  right: 3em;
+  color: #dddddd;
+}
+/* line 78, ../sass/screen.sass */
+#two .crest {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+
+/* line 84, ../sass/screen.sass */
+#three {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, #057391), color-stop(80%, #80b5c1), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #057391 40%, #80b5c1 80%, #ffffff);
+  background-image: -moz-linear-gradient(top, #057391 40%, #80b5c1 80%, #ffffff);
+  background-image: -o-linear-gradient(top, #057391 40%, #80b5c1 80%, #ffffff);
+  background-image: linear-gradient(top, #057391 40%, #80b5c1 80%, #ffffff);
+  height: 600px;
+}
+/* line 88, ../sass/screen.sass */
+#three .content {
+  position: relative;
+}
+/* line 91, ../sass/screen.sass */
+#three p {
+  position: absolute;
+}
+/* line 94, ../sass/screen.sass */
+#three .part-one {
+  top: 0px;
+  left: 2em;
+  color: #dedede;
+  font-size: 24px;
+}
+/* line 100, ../sass/screen.sass */
+#three .part-two {
+  top: 200px;
+  right: 2em;
+}
+/* line 104, ../sass/screen.sass */
+#three .part-three {
+  top: 300px;
+  right: 5em;
+  font-size: 30px;
+}
+
+/* line 109, ../sass/screen.sass */
+#four {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #cff6ff));
+  background-image: -webkit-linear-gradient(top, #ffffff, #cff6ff);
+  background-image: -moz-linear-gradient(top, #ffffff, #cff6ff);
+  background-image: -o-linear-gradient(top, #ffffff, #cff6ff);
+  background-image: linear-gradient(top, #ffffff, #cff6ff);
+  height: 600px;
 }
