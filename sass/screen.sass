@@ -1,4 +1,5 @@
 @import "compass/css3/images"
+@import "compass/css3/transform"
 
 body
 	font-family:  "Arial", sans
@@ -19,6 +20,7 @@ p
 	svg
 		position:  absolute
 		height: 400px
+		z-index: 6
 		
 	.surf-3
 		height: 500px
@@ -37,11 +39,18 @@ p
 		position: absolute
 		top: 2em
 		left: 1em
+		
+	.part-one:first-letter
+		font-size: 60px
+		float: left
+		line-height: 40px
+		letter-spacing: -5px
 	
 	.part-two
 		color: #ccc
-		right: 20px
+		right: 20%
 		top: 5em
+		z-index: 7
 		
 	.surf-1
 		opacity: 0.2
@@ -52,6 +61,7 @@ p
 #two
 	background-color:  #0B2751
 	height:  800px
+	position: relative
 	
 	.content
 		position: relative
@@ -79,7 +89,7 @@ p
 		position:  absolute
 		width:  100%
 		height:  100%
-		top: 0px
+		top: 480px
 		
 #three
 	+background-image(linear-gradient(top, #057391 40%, #80B5C1 80%, #fff))
@@ -92,10 +102,11 @@ p
 		position:  absolute
 		
 	.part-one
-		top: 0px
-		left: 2em
+		top: -4em
+		left: 2.5em
 		color:  #dedede
-		font-size:  24px
+		font-size:  36px
+		+rotate(-5deg)
 		
 	.part-two
 		top: 200px
@@ -107,5 +118,49 @@ p
 		font-size:  30px
 		
 #four
-	+background-image(linear-gradient(top, #fff, #CFF6FF))
+	+background-image(linear-gradient(top, #fff, #D8D598))
 	height:  600px
+	position: relative
+	
+	.rock, .wave
+		position:  absolute
+		top: 0px
+	.rock
+		right: -30px
+	
+	.content
+		position: relative
+		height: 100%
+	
+	p
+		position: absolute
+		
+	.part-one
+		left: 1em
+		font-variant:  italic
+		
+	.part-two
+		top: 290px
+		left: 24em
+		
+	.part-three
+		font-size:  30px
+		color:  #333
+		top: 320px
+		left: 16em
+		z-index:  10
+		
+	.part-four
+		color:  #666
+		top: 320px
+		right: 3em
+		z-index:  10
+		
+	.part-five
+		bottom: 1em
+		left: 4em
+		z-index:  10
+		
+#spacer
+	height:  600px
+	background-color: #333
