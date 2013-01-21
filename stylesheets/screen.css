@@ -216,7 +216,67 @@ p {
 }
 
 /* line 164, ../sass/screen.sass */
-#spacer {
-  height: 600px;
-  background-color: #333333;
+#five {
+  background-color: #0d034f;
+  height: 800px;
+  position: relative;
+}
+/* line 169, ../sass/screen.sass */
+#five p {
+  position: absolute;
+}
+/* line 172, ../sass/screen.sass */
+#five .soldiers {
+  position: absolute;
+  top: 20px;
+}
+/* line 176, ../sass/screen.sass */
+#five .part-one {
+  left: 5em;
+  top: 10px;
+  font-size: 60px;
+  color: #dddddd;
+  z-index: 5;
+}
+/* line 182, ../sass/screen.sass */
+#five .part-one:first-letter {
+  color: white;
+  font-family: "Georgia";
+  font-size: 90px;
+  float: left;
+}
+/* line 187, ../sass/screen.sass */
+#five .part-two {
+  right: 3em;
+  top: 30px;
+  font-size: 40px;
+  color: #dddddd;
+}
+/* line 192, ../sass/screen.sass */
+#five .part-three {
+  left: 5em;
+  top: 400px;
+  z-index: 2;
+  font-size: 30px;
+}
+/* line 197, ../sass/screen.sass */
+#five .part-four {
+  left: 15em;
+  top: 440px;
+  z-index: 2;
+  font-size: 30px;
+}
+/* line 202, ../sass/screen.sass */
+#five .part-five {
+  right: 3em;
+  top: 450px;
+  z-index: 2;
+  font-size: 24px;
+}
+/* line 207, ../sass/screen.sass */
+#five .part-six {
+  right: 2em;
+  top: 480px;
+  z-index: 2;
+  font-size: 30px;
 }
