@@ -2,6 +2,9 @@
 @import "compass/css3/transform"
 @import "compass/css3/background-size"
 
+html
+	overflow-x: hidden
+
 body
 	font-family:  "Arial", sans
 	margin: 0px
@@ -14,6 +17,7 @@ p
 #one
 	background-color: #E0C9A2
 	height: 400px
+	overflow-x: hidden
 	
 	p
 		position:  absolute
@@ -260,5 +264,76 @@ p
 		bottom: -5px
 	
 #eight
-	height:  600px
+	height:  500px
 	background-color:  #D0920A
+	position:  relative
+	
+	.army
+		position:  absolute
+		top: -30px
+		z-index: 2
+	p
+		position: absolute
+	
+	.part-one
+		top: 100px
+		left: 30em
+		
+	.part-two
+		top: 100px
+		right: 10em
+		
+	.part-three
+		top: 300px
+		width:  100%
+		text-align:  center
+		z-index:  3
+		color:  #ddd
+		font-size:  40px
+		opacity: 0.8
+		margin-left:  3em
+		
+#nine
+	height:  800px
+	+background-image(linear-gradient(top, #222 15%, #052733 60%, #064960 90%))
+	position: relative
+	z-index: 1
+	
+	p
+		position: absolute
+	
+	.part-one
+		right: 20%
+		top: 300px
+		color: #eee
+		font-size: 30px
+		opacity: 0.9
+		
+	.part-two
+		right: 30%
+		top: 350px
+		color: #ddd
+		font-size: 24px
+		
+	.part-three
+		width: 100%
+		text-align: center
+		top: 900px
+		color: #fff
+		font-size: 44px
+		opacity: 0.8
+	
+#end1
+	height:  1000px
+	+background-image(linear-gradient(top, #064960, #137CA0, #9DDDF4, #fff))
+	
+#end2
+	height:  500px
+	background-color:  #fff
+	color:  #222
+	position:  relative
+	.text
+		position:  absolute
+		bottom: 1em
+		width:  100%
+		text-align:  center
