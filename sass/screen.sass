@@ -1,5 +1,6 @@
 @import "compass/css3/images"
 @import "compass/css3/transform"
+@import "compass/css3/background-size"
 
 body
 	font-family:  "Arial", sans
@@ -172,13 +173,14 @@ p
 	.soldiers
 		position:  absolute
 		top: 20px
+		z-index: 2
 		
 	.part-one
 		left: 5em
 		top: 10px
 		font-size:  60px
 		color:  #ddd
-		z-index:  5
+		z-index:  3
 	.part-one:first-letter
 		color:  #fff
 		font-family:  "Georgia"
@@ -192,20 +194,71 @@ p
 	.part-three
 		left: 5em
 		top: 400px
-		z-index:  2
+		z-index:  3
 		font-size:  30px
 	.part-four
 		left: 15em
 		top: 440px
-		z-index: 2
+		z-index: 3
 		font-size:  30px
 	.part-five
 		right: 3em
 		top: 450px
-		z-index:  2
+		z-index:  3
 		font-size:  24px
 	.part-six
 		right: 2em
 		top: 480px
-		z-index:  2
+		z-index:  3
 		font-size:  30px
+		
+#six
+	height:  900px
+	+background-image(linear-gradient(top, #0D034F, #566896 40%, #C1C2C6 80%, #FFFEF0))
+	position: relative
+	z-index: 1
+	
+	.part-one
+		position:  absolute
+		top: 450px
+		width:  100%
+		text-align:  center
+		font-size:  50px
+		color:  #fff
+		text-transform:  lowercase
+		
+#seven
+	height:  400px
+	overflow: hidden
+	position: relative
+	background-color: #FFFEF0
+	
+	p
+		position: absolute
+	
+	.part-one
+		font-size: 22px
+		left: 9em
+		top: 3em
+		color: #999
+		
+	.part-two
+		font-size: 22px
+		left: 20em
+		top: 3em
+		
+	.part-three
+		font-size: 30px
+		right: 1em
+		top: 5em
+		z-index: 2
+		color: #fff
+		opacity: 0.9
+	
+	.orange
+		position: absolute
+		bottom: -5px
+	
+#eight
+	height:  600px
+	background-color:  #D0920A

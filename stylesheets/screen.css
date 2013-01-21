@@ -1,4 +1,4 @@
-/* line 4, ../sass/screen.sass */
+/* line 5, ../sass/screen.sass */
 body {
   font-family: "Arial", sans;
   margin: 0px;
@@ -7,84 +7,84 @@ body {
   background-color: #666666;
 }
 
-/* line 10, ../sass/screen.sass */
+/* line 11, ../sass/screen.sass */
 p {
   margin: 0px;
 }
 
-/* line 13, ../sass/screen.sass */
+/* line 14, ../sass/screen.sass */
 #one {
   background-color: #e0c9a2;
   height: 400px;
 }
-/* line 17, ../sass/screen.sass */
+/* line 18, ../sass/screen.sass */
 #one p {
   position: absolute;
 }
-/* line 20, ../sass/screen.sass */
+/* line 21, ../sass/screen.sass */
 #one svg {
   position: absolute;
   height: 400px;
   z-index: 6;
 }
-/* line 25, ../sass/screen.sass */
+/* line 26, ../sass/screen.sass */
 #one .surf-3 {
   height: 500px;
   left: -100px;
 }
-/* line 28, ../sass/screen.sass */
+/* line 29, ../sass/screen.sass */
 #one .surf-4 {
   height: 600px;
   left: -40%;
   width: 150%;
 }
-/* line 32, ../sass/screen.sass */
+/* line 33, ../sass/screen.sass */
 #one .surf-5 {
   height: 600px;
   width: 180%;
   left: -60%;
 }
-/* line 37, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 #one .part-one {
   color: #333333;
   position: absolute;
   top: 2em;
   left: 1em;
 }
-/* line 43, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 #one .part-one:first-letter {
   font-size: 60px;
   float: left;
   line-height: 40px;
   letter-spacing: -5px;
 }
-/* line 49, ../sass/screen.sass */
+/* line 50, ../sass/screen.sass */
 #one .part-two {
   color: #cccccc;
   right: 20%;
   top: 5em;
   z-index: 7;
 }
-/* line 55, ../sass/screen.sass */
+/* line 56, ../sass/screen.sass */
 #one .surf-1 {
   opacity: 0.2;
 }
-/* line 58, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 #one .surf-2 {
   opacity: 0.6;
 }
 
-/* line 61, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 #two {
   background-color: #0b2751;
   height: 800px;
   position: relative;
 }
-/* line 66, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 #two .content {
   position: relative;
 }
-/* line 69, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 #two .part-one {
   position: absolute;
   top: 260px;
@@ -92,21 +92,21 @@ p {
   color: #eeeeee;
   font-size: 30px;
 }
-/* line 76, ../sass/screen.sass */
+/* line 77, ../sass/screen.sass */
 #two .part-two {
   position: absolute;
   top: 260px;
   right: 1em;
   color: #cccccc;
 }
-/* line 82, ../sass/screen.sass */
+/* line 83, ../sass/screen.sass */
 #two .part-three {
   position: absolute;
   top: 300px;
   right: 3em;
   color: #dddddd;
 }
-/* line 88, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 #two .crest {
   position: absolute;
   width: 100%;
@@ -114,7 +114,7 @@ p {
   top: 480px;
 }
 
-/* line 94, ../sass/screen.sass */
+/* line 95, ../sass/screen.sass */
 #three {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, #057391), color-stop(80%, #80b5c1), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(top, #057391 40%, #80b5c1 80%, #ffffff);
@@ -123,15 +123,15 @@ p {
   background-image: linear-gradient(top, #057391 40%, #80b5c1 80%, #ffffff);
   height: 600px;
 }
-/* line 98, ../sass/screen.sass */
+/* line 99, ../sass/screen.sass */
 #three .content {
   position: relative;
 }
-/* line 101, ../sass/screen.sass */
+/* line 102, ../sass/screen.sass */
 #three p {
   position: absolute;
 }
-/* line 104, ../sass/screen.sass */
+/* line 105, ../sass/screen.sass */
 #three .part-one {
   top: -4em;
   left: 2.5em;
@@ -143,19 +143,19 @@ p {
   -o-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
-/* line 111, ../sass/screen.sass */
+/* line 112, ../sass/screen.sass */
 #three .part-two {
   top: 200px;
   right: 2em;
 }
-/* line 115, ../sass/screen.sass */
+/* line 116, ../sass/screen.sass */
 #three .part-three {
   top: 300px;
   right: 5em;
   font-size: 30px;
 }
 
-/* line 120, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 #four {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #d8d598));
   background-image: -webkit-linear-gradient(top, #ffffff, #d8d598);
@@ -165,35 +165,35 @@ p {
   height: 600px;
   position: relative;
 }
-/* line 125, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
 #four .rock, #four .wave {
   position: absolute;
   top: 0px;
 }
-/* line 128, ../sass/screen.sass */
+/* line 129, ../sass/screen.sass */
 #four .rock {
   right: -30px;
 }
-/* line 131, ../sass/screen.sass */
+/* line 132, ../sass/screen.sass */
 #four .content {
   position: relative;
   height: 100%;
 }
-/* line 135, ../sass/screen.sass */
+/* line 136, ../sass/screen.sass */
 #four p {
   position: absolute;
 }
-/* line 138, ../sass/screen.sass */
+/* line 139, ../sass/screen.sass */
 #four .part-one {
   left: 1em;
   font-variant: italic;
 }
-/* line 142, ../sass/screen.sass */
+/* line 143, ../sass/screen.sass */
 #four .part-two {
   top: 290px;
   left: 24em;
 }
-/* line 146, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
 #four .part-three {
   font-size: 30px;
   color: #333333;
@@ -201,82 +201,150 @@ p {
   left: 16em;
   z-index: 10;
 }
-/* line 153, ../sass/screen.sass */
+/* line 154, ../sass/screen.sass */
 #four .part-four {
   color: #666666;
   top: 320px;
   right: 3em;
   z-index: 10;
 }
-/* line 159, ../sass/screen.sass */
+/* line 160, ../sass/screen.sass */
 #four .part-five {
   bottom: 1em;
   left: 4em;
   z-index: 10;
 }
 
-/* line 164, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 #five {
   background-color: #0d034f;
   height: 800px;
   position: relative;
 }
-/* line 169, ../sass/screen.sass */
+/* line 170, ../sass/screen.sass */
 #five p {
   position: absolute;
 }
-/* line 172, ../sass/screen.sass */
+/* line 173, ../sass/screen.sass */
 #five .soldiers {
   position: absolute;
   top: 20px;
+  z-index: 2;
 }
-/* line 176, ../sass/screen.sass */
+/* line 178, ../sass/screen.sass */
 #five .part-one {
   left: 5em;
   top: 10px;
   font-size: 60px;
   color: #dddddd;
-  z-index: 5;
+  z-index: 3;
 }
-/* line 182, ../sass/screen.sass */
+/* line 184, ../sass/screen.sass */
 #five .part-one:first-letter {
   color: white;
   font-family: "Georgia";
   font-size: 90px;
   float: left;
 }
-/* line 187, ../sass/screen.sass */
+/* line 189, ../sass/screen.sass */
 #five .part-two {
   right: 3em;
   top: 30px;
   font-size: 40px;
   color: #dddddd;
 }
-/* line 192, ../sass/screen.sass */
+/* line 194, ../sass/screen.sass */
 #five .part-three {
   left: 5em;
   top: 400px;
-  z-index: 2;
+  z-index: 3;
   font-size: 30px;
 }
-/* line 197, ../sass/screen.sass */
+/* line 199, ../sass/screen.sass */
 #five .part-four {
   left: 15em;
   top: 440px;
-  z-index: 2;
+  z-index: 3;
   font-size: 30px;
 }
-/* line 202, ../sass/screen.sass */
+/* line 204, ../sass/screen.sass */
 #five .part-five {
   right: 3em;
   top: 450px;
-  z-index: 2;
+  z-index: 3;
   font-size: 24px;
 }
-/* line 207, ../sass/screen.sass */
+/* line 209, ../sass/screen.sass */
 #five .part-six {
   right: 2em;
   top: 480px;
-  z-index: 2;
+  z-index: 3;
   font-size: 30px;
+}
+
+/* line 215, ../sass/screen.sass */
+#six {
+  height: 900px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d034f), color-stop(40%, #566896), color-stop(80%, #c1c2c6), color-stop(100%, #fffef0));
+  background-image: -webkit-linear-gradient(top, #0d034f, #566896 40%, #c1c2c6 80%, #fffef0);
+  background-image: -moz-linear-gradient(top, #0d034f, #566896 40%, #c1c2c6 80%, #fffef0);
+  background-image: -o-linear-gradient(top, #0d034f, #566896 40%, #c1c2c6 80%, #fffef0);
+  background-image: linear-gradient(top, #0d034f, #566896 40%, #c1c2c6 80%, #fffef0);
+  position: relative;
+  z-index: 1;
+}
+/* line 221, ../sass/screen.sass */
+#six .part-one {
+  position: absolute;
+  top: 450px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-transform: lowercase;
+}
+
+/* line 230, ../sass/screen.sass */
+#seven {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  background-color: #fffef0;
+}
+/* line 236, ../sass/screen.sass */
+#seven p {
+  position: absolute;
+}
+/* line 239, ../sass/screen.sass */
+#seven .part-one {
+  font-size: 22px;
+  left: 9em;
+  top: 3em;
+  color: #999999;
+}
+/* line 245, ../sass/screen.sass */
+#seven .part-two {
+  font-size: 22px;
+  left: 20em;
+  top: 3em;
+}
+/* line 250, ../sass/screen.sass */
+#seven .part-three {
+  font-size: 30px;
+  right: 1em;
+  top: 5em;
+  z-index: 2;
+  color: white;
+  opacity: 0.9;
+}
+/* line 258, ../sass/screen.sass */
+#seven .orange {
+  position: absolute;
+  bottom: -5px;
+}
+
+/* line 262, ../sass/screen.sass */
+#eight {
+  height: 600px;
+  background-color: #d0920a;
 }
