@@ -150,13 +150,12 @@ p {
   background-image: -moz-linear-gradient(top, #ffffff, #d8d598);
   background-image: -o-linear-gradient(top, #ffffff, #d8d598);
   background-image: linear-gradient(top, #ffffff, #d8d598);
-  height: 600px;
   position: relative;
 }
-/* line 117, ../sass/screen.sass */
+/* line 116, ../sass/screen.sass */
 #four .rock, #four .wave {
   position: absolute;
-  top: 0px;
+  bottom: 0px;
 }
 /* line 120, ../sass/screen.sass */
 #four .rock {

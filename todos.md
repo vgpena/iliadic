@@ -1,5 +1,19 @@
 #TODOs
 
+##as of 23 jan
+- one
+	- redraw SVGs to end on l side, not on bottom
+	
+- two
+	- redraw svg
+	
+- three
+	- make taller
+	
+- four
+	- figure what to do re: aspect ratio and taking up as much space as possible for screens with w >~2238px (rock and wave separate) (responsive?)
+
+
 ##as of unk. date
 - all
 	- use %, not ems, to place text
