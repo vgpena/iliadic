@@ -257,6 +257,10 @@ p
 		position:  absolute
 		top: -30px
 		z-index: 2
+		
+	.agamemnon-wave
+		position: absolute
+	
 	p
 		position: absolute
 		
@@ -266,9 +270,10 @@ p
 		left: 240px
 		width: 100%
 		height: 380px
-		z-index: 100
-		opacity: 0.5
-		background-color: #fff
+		z-index: 1
+		+background(image-url('../imgs/8/bg.svg'))
+		background-repeat: repeat-x
+		background-position: bottom left
 	
 	.part-one
 		top: 100px
